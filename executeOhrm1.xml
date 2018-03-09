@@ -1,0 +1,16 @@
+<suite name="reg1" parallel="tests">
+
+	<parameters>
+		<parameter name="aUrl" value="http://opensource.demo.orangehrmlive.com/" />
+	</parameters>
+	<test name="c1">
+		<parameters>
+			<parameter name="browser" value="edge" />
+		</parameters>
+
+		<classes>
+			<class name="com.tng.ohrm.OhrmAddEmployee" />
+		</classes>
+	</test>
+</suite>
+
