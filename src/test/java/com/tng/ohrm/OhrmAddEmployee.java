@@ -44,6 +44,7 @@ public class OhrmAddEmployee extends BaseTest {
 		driver.findElement(By.id("btnSave")).click();
 
 		System.out.println("Employee Added");
+		System.out.println("Add Employee Completed");
 	}
 
 }
