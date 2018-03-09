@@ -27,6 +27,7 @@ public class OhrmAddEmployee extends BaseTest {
 
 	@Test(dependsOnMethods = "Login")
 	public void AddEmployee() {
+		System.out.println("Add Employee Started");
 		// click on PIM lnk
 		driver.findElement(By.linkText("PIM")).click();
 
